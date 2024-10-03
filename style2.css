@@ -146,6 +146,7 @@ nav .logo img{
     box-shadow: 0px 0px 20px -10px;
     border-radius: 10px;
     font-size: 20px;
+    padding: 20px;
 
 }
 .showcase-item button {
@@ -244,6 +245,7 @@ nav .logo img{
 }
 .images img {
     width: 100%;
+    padding: 20px;
 }
 
 .wraper {
