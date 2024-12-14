@@ -218,7 +218,8 @@ nav .logo img{
     flex-wrap: wrap;
 }
 .project-item img {
-    width: 100%;
+    width: 400px;
+    height: 500px;
     margin-top: 10px;
     text-align: justify;
     text-indent: 40px;
