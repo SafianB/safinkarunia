@@ -4,181 +4,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
     <title>Myporto</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chelsea+Market&family=Combo&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Goudy+Bookletter+1911&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+    />
 </head>
 <body>
-    <!-- navigasi -->
-     <div class="container">
-        <nav>
-            <div class="logo">
-                <img src="gambar/logo1.png" alt="Mylogo">
+   <!-- Nav -->
+   <nav class="navbar">
+    <a href="#" class="logo">safin<span>karunia</span>.</a>
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#project">Project</a>
+      <a href="#galeri">Galeri</a>
+    </div>
+    
+    <div class="navbar-extra">
+     
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+  </nav>
+  <!-- Home -->
+  <section id="home" class="home">
+    <div class="row">
+        <div class="conten-tentangkami">
+            <h1> <span>Welcome</span></h1> 
+            <h1>To My Archive Project</h1>
+          <p>This web contains projects that I have created</p>
+            
+        </div>
+        <div class="home-img">
+            <div class="gambar">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="Bea Cukai.png" style="width:100%">
+                <!-- <div class="text">Caption Text</div> -->
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="Pelabuhan Tua Donggala.png" style="width:100%">
+                <!-- <div class="text">Caption Two</div> -->
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="Gudang Kopra.png" style="width:100%">
+                <!-- <div class="text">Caption Three</div> -->
+              </div>
+
+                <a class="prev" onclick="plusSlide(-1)"></a>
+                <a class="next" onclick="plusSlide(1)"></a>
+              </div>
+              <br>
+      
+      
+              <!-- <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+              </div> -->
+        </div>
+  </section>
+  <!-- About -->
+  <div class="container-about" id="about">
+    <div class="container-showcase">
+        <div class="header">
+            <h2 >About</h2>
+            <hr>
+        </div>
+        <div class="container-flex">
+            <div class="showcase-item">
+                <img src="gambar/About Me.png" alt="">
             </div>
-            <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#project">Project</a>
-                <ul class="submenu">
-                    <li><a href="#Arcgis">Arcgis Story Map</a></li>
-                    <li><a href="#publikasi">Publication</a></li>
-                </ul>
-            </li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        </nav>
-        <!-- cover -->
-        <div class="container-hero" id="home">
-            <div class="text" >
-                <h1>Hello,</h1>
-                <p>Welcome to Safin's Archive Project</p>
-                <hr>
+            <div class="showcase-item">
+                <h3>Safin Karunia Rojuli</h3>
+                <p>A recent history graduate with a passion for learning and an enthusiastic approach to new opportunities. During his studies, he worked on various research projects, sharpening his analytical skills and his ability to evaluate historical sources. Beyond academics, he volunteered with different organizations and interned at institutions related to history and culture, broadening his perspective and enhancing his communication, project management, and teamwork abilities.</p>
+                <p>Now, as he steps into the professional world, he's eager to take on new challenges in fields like education, research, or any sector that values a deep understanding of history and strong analytical skills. His excellent interpersonal skills and collaborative nature make him a great addition to any team.</p>
+                <button type="button"><a href="https://drive.google.com/drive/folders/1L-oLq2URtREAFW0ytOsrI75VISqh73uy?usp=sharing">Curiculum Vitae</a></button>
             </div>
         </div>
-     </div>
-     <!-- About me -->
-      <div class="container-about" id="about">
-        <div class="container-showcase">
-            <div class="header">
-                <h2 >About</h2>
-                <hr>
-            </div>
-            <div class="container-flex">
-                <div class="showcase-item">
-                    <img src="gambar/About Me.png" alt="">
-                </div>
-                <div class="showcase-item">
-                    <h3>Safin Karunia Rojuli</h3>
-                    <p>A recent history graduate with a passion for learning and an enthusiastic approach to new opportunities. During his studies, he worked on various research projects, sharpening his analytical skills and his ability to evaluate historical sources. Beyond academics, he volunteered with different organizations and interned at institutions related to history and culture, broadening his perspective and enhancing his communication, project management, and teamwork abilities.</p>
-                    <p>Now, as he steps into the professional world, he's eager to take on new challenges in fields like education, research, or any sector that values a deep understanding of history and strong analytical skills. His excellent interpersonal skills and collaborative nature make him a great addition to any team.</p>
-                    <button type="button"><a href="https://drive.google.com/drive/folders/1L-oLq2URtREAFW0ytOsrI75VISqh73uy?usp=sharing">Curiculum Vitae</a></button>
-                </div>
-            </div>
-          </div>
       </div>
-      <!-- Project -->
-       <div class="container-project" id="project">
-            <div class="container-showcase-project">
-                <div class="header">
-                    <h2>Project</h2>
-                    <hr>
-                </div>
-                <div class="container-flex-project">
-                    <div class="project-item" id="Arcgis">
-                        <a href="https://storymaps.arcgis.com/stories/f454c61825444f2caf260cd256af2640">
-                            <h2>Arcgis Story Map Donggala Heritage</h2>
-                        </a>
-                        <video src="Multimedia/city-heritage-donggala-google-chrome-2024-05-16-10-54-141_vCKaoQVO.mp4" controls loop autoplay></video>
-                        <p>The website offers a comprehensive overview of Cultural Heritage Sites and potential heritage sites in Donggala Regency, Central Sulawesi. An interactive map allows users to visualize the geographical distribution of these valuable assets.</p>
-                    </div>
-                    <div class="project-item" id="publikasi">
-                        <h2 > Video Dokumentar Donggala Heritage</h2>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VryFbngBpik?si=ZzdrQpevnHDb0ckt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <p>The historical development of Donggala Old Port in Donggala Regency, Central Sulawesi, from the early 20th century to the present.</p>
-                    </div>
-                    <div class="project-item" id="publikasi">
-                        <h2 > Dulu, Kini, dan Nanti: Kisah dari Kampung Peneleh</h2>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MVtHjTYtY1Y?si=bqlWt5CI9lts1a_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <p>This is story about "Kampung Peneleh" at Surabaya. This old village has been inhabited since the Dutch East Indies government.</p>
-                    </div>
-                    <div class="project-item" id="Arcgis">
-                        <a href="https://doi.org/10.31235/osf.io/wu3pq">
-                            <h2>Book Review:Filsafat Ilmu dan Logika: Dialektika Perubahan</h2>
-                        </a>
-                        <!-- <video src="Multimedia/city-heritage-donggala-google-chrome-2024-05-16-10-54-141_vCKaoQVO.mp4" controls loop autoplay></video> -->
-                        <p>This book was written based on the question "What and Why is the Philosophy of Science?". Until now, it seems that no one can stop the rapid progress of science. Recent history records science as a form of rational human thought with the results of various scientific disciplines and sub-disciplines. Accompanied by suitable methodological materials and buildings, it is well preserved in libraries or scientific institutions such as universities. The progress of science cannot be separated from every discovery that is useful for the advancement of human life. The book is perfect for a beginner who wants to study the philosophy of science and wants to know the basics of logic. Very helpful for someone who wants or will study philosophy of science. The content of the discussion that contains the history of philosophical thought to the history of methodology in modern science is beneficial for ordinary people who want to know how to develop science. By studying philosophy of science, we try to look again at a more radical and critical view of the history and development of this book. The book presents several philosophers in several periods and discusses the essays that have been written. This book contains seven chapters beginning with an introductory discussion of philosophy, several branches of science, the history of the development of philosophy, which has been packaged. In the following chapters, this book discusses the basics of logic, how to present the philosophy of science, to discuss the influence of philosophical thought on modernity. Reviewing the book entitled "Filsafat Ilmu dan Logika: Dialektika Perubahan (Philosophy of Science and Logic: Dialectics of Change)", the reviewer has several reasons he chose this book. Books are by the provisions and themes given by the philosophy of science lecturers. The purpose of reviewing this book is to provide a brief description based on the author's reading experience of the contents in the book. This paper is addressed to someone who will read this book.</p>
-                        </p>
-                    </div>
-                    <div class="project-item" id="Arcgis">
-                        <a href="https://doi.org/10.20944/preprints202106.0334.v1">
-                            <h2>Paradigm of Historical Science: Dealing with the Modern Juggernaut through across Time in Education and Government</h2>
-                        </a>
-                        <!-- <video src="Multimedia/city-heritage-donggala-google-chrome-2024-05-16-10-54-141_vCKaoQVO.mp4" controls loop autoplay></video> -->
-                        <p>In this modern era, continuous change is the first step in forming a new structure between theory and practice. The idea of ​a juggernaut is very relevant to the theory of structuration with current conditions in the 21st century, where technology becomes a reference that can crush anyone who is not responsive to its power. This technology takes one path and takes many roles from various fields: economic, social, political, legal, and educational. This 21st century is marked by great momentum for changes in human behavior and civilization, namely the industrial revolution 4.0 and the arrival of Covid-19, which have changed many social structures and human activities. This makes history a means of connecting the problems in the 21st century with past events. By using a descriptive qualitative method, this paper will reveal how technological developments are very influential on educational and political developments and what are the challenges faced based on historical perspective?. In this case, the study aims to discuss the history and challenges of Indonesia's education system and government system in the 21st century and give a solution. The data used are from 2 books, 14 journal articles, and 4 websites with a span of 2019-2021. The research results are expected to be used as a further study in the face of the development of the modern era in the fields of education and government. This study also has limitations, namely only on the face of the development of the modern era in the fields of education and government.</p>
-                        </p>
-                    </div>
-                    <div class="project-item" id="Arcgis">
-                        <a href="https://www.facebook.com/share/p/tuhgbtEsGKV8GUAF/">
-                            <h2>Ruwatan</h2>
-                        </a>
-                        <img src="gambar/11.png" alt="content1">
-                        <p>"Ruwatan" is deeply rooted in Javanese culture and belief systems, often associated with spiritual purification and protection from negative influences.
-                            The categories of individuals listed are based on specific birth orders, gender combinations, or unfortunate incidents that are believed to carry negative spiritual connotations</p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-       </div>
-       <!-- Galeri -->
-        <div class="container-galeri" id="gallery">
-            <div class="header">
-                <h2>Gallery</h2>
-                <hr>
-            </div>
-        
-            <div class="galeri-flex">
-                <div class="wraper">
-                    <div class="slides">
-                        <span id="slide-1"></span>
-                        <span id="slide-2"></span>
-                        <span id="slide-3"></span>
-                        <span id="slide-4"></span>
-                        <span id="slide-5"></span>
-                        <span id="slide-6"></span>
-                        <span id="slide-7"></span>
-                        <div class="images">
-                            <img src="gambar/7.png" alt="">
-                            <img src="gambar/2.png" alt="">
-                            <img src="gambar/3.png" alt="">
-                            <img src="gambar/4.png" alt="">
-                            <img src="gambar/5.png" alt="">
-                            <img src="gambar/6.png" alt="">
-                            <img src="gambar/1.png" alt="">
-                        </div>
-                    </div>
-                    
-                    <!-- navigasi -->
-                    <div class="navigasi">
-                        <a href="#slide-1">1</a>
-                        <a href="#slide-2">2</a>
-                        <a href="#slide-3">3</a>
-                        <a href="#slide-4">4</a>
-                        <a href="#slide-5">5</a>
-                        <a href="#slide-6">6</a>
-                        <a href="#slide-7">7</a>
-                    </div>
-            </div>
+  </div>
+  <!-- project -->
+  <div class="container-project" id="project">
+    <div class="container-showcase-project">
+        <div class="header">
+            <h2>Project</h2>
+            <hr>
         </div>
-        <!-- contact -->
-         <div class="container-contact" id="contact">
-            <div class="info-contact">
-                <a href="https://www.facebook.com/safin.karunia.3"><i class="fab fa-facebook"></i>
-                <p>Facebook</p></a>
-            </div>
-            <div class="info-contact">
-                <a href="https://www.instagram.com/safinkarunia/">
-                    <i class="fab fa-instagram"></i>
-                <p>Instagram</p>
+        <div class="container-flex-project">
+            <div class="project-item" id="Arcgis">
+                <a href="https://storymaps.arcgis.com/stories/f454c61825444f2caf260cd256af2640">
+                    <h2>Arcgis Story Map Donggala Heritage</h2>
                 </a>
+                <video src="Multimedia/city-heritage-donggala-google-chrome-2024-05-16-10-54-141_vCKaoQVO.mp4" controls loop autoplay></video>
+                <p>The website offers a comprehensive overview of Cultural Heritage Sites and potential heritage sites in Donggala Regency, Central Sulawesi. An interactive map allows users to visualize the geographical distribution of these valuable assets.</p>
             </div>
-            <div class="info-contact">
-                <a href="https://www.linkedin.com/in/safin-karunia-rojuli-63b912201/">
-                    <i class="fab fa-linkedin"></i>
-                <p>LinkdeIn</p>
+            <div class="project-item" id="publikasi">
+                <h2 > Video Dokumentar Donggala Heritage</h2>
+                <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/VryFbngBpik?si=ZzdrQpevnHDb0ckt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>The historical development of Donggala Old Port in Donggala Regency, Central Sulawesi, from the early 20th century to the present.</p>
+            </div>
+            <div class="project-item" id="publikasi">
+                <h2 > Dulu, Kini, dan Nanti: Kisah dari Kampung Peneleh</h2>
+                <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/MVtHjTYtY1Y?si=bqlWt5CI9lts1a_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>This is story about "Kampung Peneleh" at Surabaya. This old village has been inhabited since the Dutch East Indies government.</p>
+            </div>
+            <div class="project-item" id="Arcgis">
+                <a href="https://doi.org/10.31235/osf.io/wu3pq">
+                    <h2>Book Review:Filsafat Ilmu dan Logika: Dialektika Perubahan</h2>
                 </a>
+                <embed src="SocArXiv Papers _ Book Review _ Filsafat Ilmu dan Logika _ Dialektika Perubahan (Philosophy of Science and Logic Dialectic of Change).pdf" width="100%" height="85%" />
+                
+                
+                 
+            </div>
+            <div class="project-item" id="Arcgis">
+                <a href="https://doi.org/10.20944/preprints202106.0334.v1">
+                    <h2>Paradigm of Historical Science: Dealing with the Modern Juggernaut through across Time in Education and Government</h2>
+                </a>
+                <embed src="preprints202106.0334.v1.pdf" width="100%" height="85%" />
                 
             </div>
-            <div class="info-contact">
-                <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fas fa-envelope"></i>
-                    <p>safinkarunia93@gmail.com</p>
+            <div class="project-item" id="Arcgis">
+                <a href="https://www.facebook.com/share/p/tuhgbtEsGKV8GUAF/">
+                    <h2>Ruwatan</h2>
                 </a>
+                <img src="gambar/11.png" alt="content1">
+                <p>"Ruwatan" is deeply rooted in Javanese culture and belief systems, often associated with spiritual purification and protection from negative influences.
+                    The categories of individuals listed are based on specific birth orders, gender combinations, or unfortunate incidents that are believed to carry negative spiritual connotations</p>
+                </p>
             </div>
-            <div class="info-contact">
-                <a href="">
-                    <i class="fab fa-discord"></i>
-                <p>Discord</p>
-                </a> 
+        </div>
+    </div>
+</div>
+<!-- Galerry -->
+            <div class="container-galeri" id="gallery">
+              <div class="header">
+                  <h2>Gallery</h2>
+                  <hr>
+              </div>
+              <div class="scroll-container">
+                <img src="gambar/1.png" alt="Cinque Terre">
+                <img src="gambar/2.png" alt="Forest">
+                <img src="gambar/3.png" alt="Northern Lights">
+                <img src="gambar/4.png" alt="Mountains">
+                <img src="gambar/5.png" alt="">
+                <img src="gambar/6.png" alt="">
+                <img src="gambar/7.png" alt="">
+              </div>
+              </div>
             </div>
-         </div>
+
+<!-- footer -->
+            <footer>
+              <div class="socials">
+                <a href="https://www.instagram.com/safinkarunia/"><i data-feather="instagram"></i></a>
+                <a href="https://www.facebook.com/Safinkrn"><i data-feather="facebook"></i></a>
+                <a href="https://www.linkedin.com/in/safin-karunia-rojuli-63b912201/"><i data-feather="linkedin"></i></a>
+              </div>
+              <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#project">Project</a>
+                <a href="#gallery">Galeri</a>
+              </div>
+              <div class="credit">
+                <p>Created by <a href="https://www.instagram.com/safinkarunia/">@Safinkarunia</a>. &copy; 2025</p>
+                <p>Jika Anda ingin membuat atau memesan undangan digital, bisa menghubungi saya.😊</p>
+              </div>
+            </footer>
+  
+  <script>
+    feather.replace();
+    </script>
+  <script src="porto.js"></script>
+
 </body>
 </html>
